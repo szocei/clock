@@ -4,16 +4,22 @@ box-sizing: border-box;
 }
 
 @font-face {
-font-family: cyberv;
-   src: url;
-   font-weight: 500;
-
+font-family: "orbit";
+src: url('./fonts/Orbitron/Orbitron-VariableFont_wght.ttf');
+font-weight: 400;
 }
+@font-face {
+font-family: "cyber";
+src: url('./fonts/cyberverse/Cyberverse.otf');
+font-weight: 400;
+}
+
+
 
 
 .container {
    display: flex;
-max-width: 600px;
+max-width: 700px;
 margin: auto auto;
 margin-top: 20%;
 justify-content: center;
@@ -24,11 +30,10 @@ background-color: black;
  
 .clock {
   text-align: center;
-   font-family: fantasy;
-   font-weight: 200;
+   font-family: "cyber"; 
    line-height: 200px; 
     font-size: 100px;
-    width: 300px;
+    width: 500px;
 height: 200px;
 color: rgb(145, 150, 214);
 }
